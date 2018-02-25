@@ -10,7 +10,12 @@ use Mix.Config
 
 # You can configure your application as:
 #
-#     config :kv, key: :value
+config :kv,
+  routing_table: [
+    {?a..?m, :"foo@emattsans-MBP"},
+    {?n..?z, :"bar@emattsans-MBP"}
+  ]
+
 #
 # and access this configuration in your application as:
 #
